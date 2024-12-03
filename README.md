@@ -1,2 +1,1 @@
-# SmartCaptioner
-Smart Captioner
+
