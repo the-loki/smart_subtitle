@@ -27,3 +27,4 @@ IMPORT_MINI_AUDIO()
 
 target_sources(${TARGET_NAME} PRIVATE ${${TARGET_NAME}_SERVER_SOURCE_FILES})
 target_link_libraries(${TARGET_NAME} PRIVATE whisper nanomsg miniaudio)
+target_include_directories(${TARGET_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/include)
