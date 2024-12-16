@@ -1,0 +1,4 @@
+# ninja log v6
+2	313	7559719008604814	build.ninja	14da46e7cfdc9691
+1	109	7559712577072074	whisper_server/CMakeFiles/whisper_server.dir/main.cpp.obj	5e6c475eb377f085
+109	217	7559712578159319	whisper_server/whisper_server.exe	ba2ff30e3e08044d

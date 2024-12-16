@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "thirdparty/llama.cpp-b4329/src",
+		"source" : "thirdparty/llama.cpp-b4329/src"
+	}
+}

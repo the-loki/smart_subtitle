@@ -1,0 +1,88 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"thirdparty/whisper.cpp-1.7.2/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 163,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 171,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"thirdparty/whisper.cpp-1.7.2/src/libwhisper.a"
+			],
+			"targetId" : "whisper::@934c4b51beab5a89074c",
+			"targetIndex" : 53,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"thirdparty/whisper.cpp-1.7.2/include/whisper.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/whisper",
+			"paths" : 
+			[
+				"cmake-build-debug/thirdparty/whisper.cpp-1.7.2/whisper-config.cmake",
+				"cmake-build-debug/thirdparty/whisper.cpp-1.7.2/whisper-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/thirdparty/whisper.cpp-1.7.2/whisper.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "thirdparty/whisper.cpp-1.7.2",
+		"source" : "thirdparty/whisper.cpp-1.7.2"
+	}
+}

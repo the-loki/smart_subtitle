@@ -1,0 +1,191 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "thirdparty/whisper.cpp-1.7.2/src/libwhisper.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"add_compile_definitions",
+			"target_include_directories",
+			"target_compile_features"
+		],
+		"files" : 
+		[
+			"thirdparty/whisper.cpp-1.7.2/src/CMakeLists.txt",
+			"thirdparty/whisper.cpp-1.7.2/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 95,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++20 -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "GGML_USE_CPU"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "E:/Development/Private/Cpp/smart_subtitle/subtitle_server/thirdparty/whisper.cpp-1.7.2/src/."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "E:/Development/Private/Cpp/smart_subtitle/subtitle_server/thirdparty/whisper.cpp-1.7.2/src/../include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/Development/Private/Cpp/smart_subtitle/subtitle_server/thirdparty/llama.cpp-b4329/ggml/src/../include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "ggml::@82de850ea9aab3082014"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ggml-base::@82de850ea9aab3082014"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ggml-cpu::@82de850ea9aab3082014"
+		}
+	],
+	"id" : "whisper::@934c4b51beab5a89074c",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/subtitle_server"
+		}
+	},
+	"name" : "whisper",
+	"nameOnDisk" : "libwhisper.a",
+	"paths" : 
+	{
+		"build" : "thirdparty/whisper.cpp-1.7.2/src",
+		"source" : "thirdparty/whisper.cpp-1.7.2/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/whisper.cpp-1.7.2/include/whisper.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/whisper.cpp-1.7.2/src/whisper.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

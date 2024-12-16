@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "thirdparty/llama.cpp-b4329/ggml/src/ggml-cpu",
+		"source" : "thirdparty/llama.cpp-b4329/ggml/src/ggml-cpu"
+	}
+}

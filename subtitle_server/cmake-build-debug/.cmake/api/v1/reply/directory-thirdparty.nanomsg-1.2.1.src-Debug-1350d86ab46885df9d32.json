@@ -1,0 +1,115 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"thirdparty/nanomsg-1.2.1/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 372,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 375,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 390,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 404,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/thirdparty/nanomsg-1.2.1/src/nanomsg.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"thirdparty/nanomsg-1.2.1/libnanomsg.dll.a"
+			],
+			"targetId" : "nanomsg::@9d7035edb8d59f737ac0",
+			"targetIndex" : 32,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"thirdparty/nanomsg-1.2.1/libnanomsg.dll"
+			],
+			"targetId" : "nanomsg::@9d7035edb8d59f737ac0",
+			"targetIndex" : 32,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/nanomsg-1.2.1",
+			"exportName" : "nanomsg-target",
+			"exportTargets" : 
+			[
+				{
+					"id" : "nanomsg::@9d7035edb8d59f737ac0",
+					"index" : 32
+				}
+			],
+			"paths" : 
+			[
+				"thirdparty/nanomsg-1.2.1/src/CMakeFiles/Export/70fa144dda98e8a8b224bc848ef7b1bd/nanomsg-target.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/nanomsg-1.2.1",
+			"paths" : 
+			[
+				"cmake-build-debug/thirdparty/nanomsg-1.2.1/src/nanomsg-config.cmake",
+				"cmake-build-debug/thirdparty/nanomsg-1.2.1/src/nanomsg-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "thirdparty/nanomsg-1.2.1/src",
+		"source" : "thirdparty/nanomsg-1.2.1/src"
+	}
+}
