@@ -4,21 +4,27 @@
 
 #pragma once
 
+#include <cstdint>
+#include <functional>
 #include <miniaudio.h>
 
-class audio_capture
-{
-protected:
-    ma_device device_;
-    ma_encoder encoder_;
-    ma_device_config device_config_;
-    ma_encoder_config encoder_config_;
+namespace smart_subtitle {
+    class AudioCapture final {
+    protected:
+        bool started_;
+        ma_device device_;
+        ma_device_config device_config_;
 
-public:
-    audio_capture();
-    virtual bool init();
-    virtual ~audio_capture();
-    virtual void start() = 0;
-    virtual void stop() = 0;
-    virtual void set_callback(void (*callback)(const void* data, size_t size)) = 0;
-};
+    public:
+        std::function<void(const uint8_t *data, size_t size)> audio_data_callback_;
+
+    public:
+        AudioCapture();
+
+        virtual bool Start();
+
+        virtual ~AudioCapture();
+
+        void SetCallback(const decltype(audio_data_callback_) &callback);
+    };
+}

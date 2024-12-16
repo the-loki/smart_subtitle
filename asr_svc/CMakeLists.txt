@@ -5,7 +5,9 @@ set(CMAKE_CXX_STANDARD 20)
 
 set(TARGET_NAME ${PROJECT_NAME})
 file(GLOB_RECURSE ${TARGET_NAME}_SERVER_SOURCE_FILES "${CMAKE_CURRENT_SOURCE_DIR}/source/*.cpp")
-add_executable(${TARGET_NAME})
+add_executable(${TARGET_NAME}
+        include/automatic_speech_recognizer.cpp
+        include/automatic_speech_recognizer.h)
 
 function(IMPORT_NANOMSG)
     set(NN_ENABLE_DOC OFF)
