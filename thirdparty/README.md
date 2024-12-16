@@ -17,3 +17,9 @@
 - Upstream: https://github.com/ggerganov/whisper.cpp
 - Version: v1.7.2 (6266a9f9e56a5b925e9892acf650f3eb1245814d, 2024)
 - License: MIT
+
+## miniaudio
+
+- Upstream: https://github.com/mackron/miniaudio
+- Version: 0.11.21 (4a5b74bef029b3592c54b6048650ee5f972c1a48, 2023)
+- License: Public Domain / MIT-0
