@@ -1,0 +1,1782 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "nanomsg.out/nanomsg.dll"
+		},
+		{
+			"path" : "nanomsg.out/nanomsg.lib"
+		},
+		{
+			"path" : "nanomsg.out/nanomsg.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"add_definitions",
+			"nn_check_sym"
+		],
+		"files" : 
+		[
+			"C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/CMakeLists.txt",
+			"C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 343,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 375,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 356,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 213,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 189,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 152,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 280,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 344,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 153,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 156,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS   /Zi /Ob0 /Od /RTC1 -MDd"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "NN_HAVE_CONDVAR=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "NN_HAVE_WINDOWS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "NN_MAX_SOCKETS=512"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "NN_SHARED_LIB"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "NN_USE_WINSOCK"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_WIN32_WINNT=0x0600"
+				},
+				{
+					"define" : "nanomsg_EXPORTS"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				12,
+				14,
+				15,
+				16,
+				18,
+				19,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				41,
+				43,
+				45,
+				47,
+				50,
+				52,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				70,
+				72,
+				74,
+				75,
+				77,
+				79,
+				82,
+				84,
+				86,
+				88,
+				90,
+				92,
+				94,
+				96,
+				97,
+				99,
+				100,
+				101,
+				103,
+				105,
+				106,
+				108,
+				109,
+				110,
+				112,
+				114,
+				116,
+				118,
+				120,
+				122,
+				124,
+				126,
+				127,
+				128,
+				130,
+				132,
+				134,
+				136,
+				142,
+				144,
+				146,
+				148,
+				150,
+				152,
+				154,
+				155,
+				157,
+				159,
+				161,
+				163,
+				165,
+				167,
+				168,
+				170,
+				172,
+				174,
+				176,
+				178,
+				179,
+				181,
+				183,
+				185,
+				187,
+				188,
+				190,
+				192
+			]
+		}
+	],
+	"id" : "nanomsg::@565ad95205dd160165b1",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/llm_svc"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "mswsock.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "advapi32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "nanomsg",
+	"nameOnDisk" : "nanomsg.dll",
+	"paths" : 
+	{
+		"build" : "nanomsg.out/src",
+		"source" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "nn.h",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "inproc.h",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "ipc.h",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		},
+		{
+			"name" : "tcp.h",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		},
+		{
+			"name" : "ws.h",
+			"sourceIndexes" : 
+			[
+				4
+			]
+		},
+		{
+			"name" : "pair.h",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		},
+		{
+			"name" : "pubsub.h",
+			"sourceIndexes" : 
+			[
+				6
+			]
+		},
+		{
+			"name" : "reqrep.h",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		},
+		{
+			"name" : "pipeline.h",
+			"sourceIndexes" : 
+			[
+				8
+			]
+		},
+		{
+			"name" : "survey.h",
+			"sourceIndexes" : 
+			[
+				9
+			]
+		},
+		{
+			"name" : "bus.h",
+			"sourceIndexes" : 
+			[
+				10
+			]
+		},
+		{
+			"name" : "core",
+			"sourceIndexes" : 
+			[
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		},
+		{
+			"name" : "aio",
+			"sourceIndexes" : 
+			[
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				193,
+				194,
+				195,
+				196
+			]
+		},
+		{
+			"name" : "utils",
+			"sourceIndexes" : 
+			[
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				197,
+				198,
+				199,
+				200,
+				201
+			]
+		},
+		{
+			"name" : "devices",
+			"sourceIndexes" : 
+			[
+				85,
+				86
+			]
+		},
+		{
+			"name" : "protocols\\utils",
+			"sourceIndexes" : 
+			[
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96
+			]
+		},
+		{
+			"name" : "protocols\\bus",
+			"sourceIndexes" : 
+			[
+				97,
+				98,
+				99
+			]
+		},
+		{
+			"name" : "protocols\\pipeline",
+			"sourceIndexes" : 
+			[
+				100,
+				101,
+				102,
+				103,
+				104,
+				105
+			]
+		},
+		{
+			"name" : "protocols\\pair",
+			"sourceIndexes" : 
+			[
+				106,
+				107,
+				108
+			]
+		},
+		{
+			"name" : "protocols\\pubsub",
+			"sourceIndexes" : 
+			[
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116
+			]
+		},
+		{
+			"name" : "protocols\\reqrep",
+			"sourceIndexes" : 
+			[
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126
+			]
+		},
+		{
+			"name" : "protocols\\survey",
+			"sourceIndexes" : 
+			[
+				127,
+				128,
+				129,
+				130,
+				131,
+				132
+			]
+		},
+		{
+			"name" : "transports\\utils",
+			"sourceIndexes" : 
+			[
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150
+			]
+		},
+		{
+			"name" : "transports\\inproc",
+			"sourceIndexes" : 
+			[
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161
+			]
+		},
+		{
+			"name" : "transports\\ipc",
+			"sourceIndexes" : 
+			[
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170
+			]
+		},
+		{
+			"name" : "transports\\tcp",
+			"sourceIndexes" : 
+			[
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179
+			]
+		},
+		{
+			"name" : "transports\\ws",
+			"sourceIndexes" : 
+			[
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/nn.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/inproc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/ipc.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/tcp.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/ws.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/pair.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/pubsub.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/reqrep.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/pipeline.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/survey.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/bus.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/core/ep.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/core/ep.c",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/core/global.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/core/global.c",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/core/pipe.c",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/core/poll.c",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/core/sock.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/core/sock.c",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/core/sockbase.c",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/core/symbol.c",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/ctx.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/ctx.c",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/fsm.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/fsm.c",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/pool.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/pool.c",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/timer.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/timer.c",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/timerset.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/timerset.c",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/usock.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/usock.c",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/worker.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/worker.c",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/alloc.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/alloc.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/atomic.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/atomic.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/attr.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/chunk.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/chunk.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/chunkref.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/chunkref.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/clock.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/clock.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/closefd.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/closefd.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/cont.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/efd.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/efd.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/err.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/err.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/fast.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/fd.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/hash.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/hash.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/list.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/list.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/msg.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/msg.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/condvar.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/condvar.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/mutex.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/mutex.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/once.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/once.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/queue.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/queue.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/random.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/random.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/sem.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/sem.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/sleep.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/sleep.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/strcasecmp.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/strcasecmp.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/strcasestr.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/strcasestr.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/strncasecmp.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/strncasecmp.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/thread.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/thread.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/wire.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/wire.c",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/devices/device.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/devices/device.c",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/utils/dist.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/utils/dist.c",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/utils/excl.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/utils/excl.c",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/utils/fq.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/utils/fq.c",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/utils/lb.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/utils/lb.c",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/utils/priolist.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/utils/priolist.c",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/bus/bus.c",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/bus/xbus.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/bus/xbus.c",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/pipeline/push.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/pipeline/pull.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/pipeline/xpull.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/pipeline/xpull.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/pipeline/xpush.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/pipeline/xpush.c",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/pair/pair.c",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/pair/xpair.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/pair/xpair.c",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/pubsub/pub.c",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/pubsub/sub.c",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/pubsub/trie.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/pubsub/trie.c",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/pubsub/xpub.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/pubsub/xpub.c",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/pubsub/xsub.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/pubsub/xsub.c",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/reqrep/req.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/reqrep/req.c",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/reqrep/rep.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/reqrep/rep.c",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/reqrep/task.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/reqrep/task.c",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/reqrep/xrep.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/reqrep/xrep.c",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/reqrep/xreq.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/reqrep/xreq.c",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/survey/respondent.c",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/survey/surveyor.c",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/survey/xrespondent.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/survey/xrespondent.c",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/survey/xsurveyor.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/protocols/survey/xsurveyor.c",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/backoff.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/backoff.c",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/dns.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/dns.c",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/dns_getaddrinfo.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/dns_getaddrinfo.inc",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/dns_getaddrinfo_a.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/dns_getaddrinfo_a.inc",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/iface.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/iface.c",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/literal.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/literal.c",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/port.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/port.c",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/streamhdr.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/streamhdr.c",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/base64.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/utils/base64.c",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/inproc/binproc.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/inproc/binproc.c",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/inproc/cinproc.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/inproc/cinproc.c",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/inproc/inproc.c",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/inproc/ins.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/inproc/ins.c",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/inproc/msgqueue.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/inproc/msgqueue.c",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/inproc/sinproc.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/inproc/sinproc.c",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ipc/aipc.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ipc/aipc.c",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ipc/bipc.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ipc/bipc.c",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ipc/cipc.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ipc/cipc.c",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ipc/ipc.c",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ipc/sipc.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ipc/sipc.c",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/tcp/atcp.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/tcp/atcp.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/tcp/btcp.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/tcp/btcp.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/tcp/ctcp.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/tcp/ctcp.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/tcp/stcp.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/tcp/stcp.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/tcp/tcp.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ws/aws.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ws/aws.c",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ws/bws.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ws/bws.c",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ws/cws.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ws/cws.c",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ws/sws.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ws/sws.c",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ws/ws.c",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ws/ws_handshake.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ws/ws_handshake.c",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ws/sha1.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/transports/ws/sha1.c",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/usock_win.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/usock_win.inc",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/worker_win.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/aio/worker_win.inc",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/thread_win.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/thread_win.inc",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/win.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/efd_win.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/utils/efd_win.inc",
+			"sourceGroupIndex" : 13
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

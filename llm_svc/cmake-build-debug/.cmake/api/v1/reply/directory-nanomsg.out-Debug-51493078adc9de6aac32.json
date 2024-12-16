@@ -1,0 +1,221 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 473,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 474,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 475,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 476,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 477,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 478,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 479,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 480,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 481,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 482,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 483,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 486,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/nanomsg",
+			"paths" : 
+			[
+				"C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/nn.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/nanomsg",
+			"paths" : 
+			[
+				"C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/inproc.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/nanomsg",
+			"paths" : 
+			[
+				"C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/ipc.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/nanomsg",
+			"paths" : 
+			[
+				"C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/tcp.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/nanomsg",
+			"paths" : 
+			[
+				"C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/ws.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "include/nanomsg",
+			"paths" : 
+			[
+				"C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/pair.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "include/nanomsg",
+			"paths" : 
+			[
+				"C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/pubsub.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "include/nanomsg",
+			"paths" : 
+			[
+				"C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/reqrep.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "include/nanomsg",
+			"paths" : 
+			[
+				"C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/pipeline.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "include/nanomsg",
+			"paths" : 
+			[
+				"C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/survey.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "include/nanomsg",
+			"paths" : 
+			[
+				"C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src/bus.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"nanomsg.out/nanocat.exe"
+			],
+			"targetId" : "nanocat::@58561e324d6abfd2580f",
+			"targetIndex" : 32,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "nanomsg.out",
+		"source" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1"
+	}
+}

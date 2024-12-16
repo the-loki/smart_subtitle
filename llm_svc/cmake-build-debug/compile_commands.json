@@ -1,0 +1,134 @@
+[
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_CRT_SECURE_NO_WARNINGS -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /utf-8 /Follama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ggml.c.obj /Fdllama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml.c",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml.c",
+  "output": "llama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ggml.c.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_CRT_SECURE_NO_WARNINGS -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /utf-8 /Follama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ggml-alloc.c.obj /Fdllama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-alloc.c",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-alloc.c",
+  "output": "llama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ggml-alloc.c.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_CRT_SECURE_NO_WARNINGS -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /Follama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ggml-backend.cpp.obj /Fdllama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-backend.cpp",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-backend.cpp",
+  "output": "llama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ggml-backend.cpp.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_CRT_SECURE_NO_WARNINGS -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /Follama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ggml-opt.cpp.obj /Fdllama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-opt.cpp",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-opt.cpp",
+  "output": "llama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ggml-opt.cpp.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_CRT_SECURE_NO_WARNINGS -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /Follama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ggml-threading.cpp.obj /Fdllama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-threading.cpp",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-threading.cpp",
+  "output": "llama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ggml-threading.cpp.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_CRT_SECURE_NO_WARNINGS -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /utf-8 /Follama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ggml-quants.c.obj /Fdllama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-quants.c",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-quants.c",
+  "output": "llama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-base.dir\\ggml-quants.c.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGGML_BACKEND_SHARED -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_XOPEN_SOURCE=600 -Dggml_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /Follama.cpp.out\\ggml\\src\\CMakeFiles\\ggml.dir\\ggml-backend-reg.cpp.obj /Fdllama.cpp.out\\ggml\\src\\CMakeFiles\\ggml.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-backend-reg.cpp",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-backend-reg.cpp",
+  "output": "llama.cpp.out\\ggml\\src\\CMakeFiles\\ggml.dir\\ggml-backend-reg.cpp.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DGGML_AVX2 -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_F16C -DGGML_FMA -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\.. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /utf-8 /arch:AVX2 -openmp /Follama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ggml-cpu.c.obj /Fdllama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\ggml-cpu.c",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\ggml-cpu.c",
+  "output": "llama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ggml-cpu.c.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGGML_AVX2 -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_F16C -DGGML_FMA -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\.. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /arch:AVX2 -openmp /Follama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ggml-cpu.cpp.obj /Fdllama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\ggml-cpu.cpp",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\ggml-cpu.cpp",
+  "output": "llama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ggml-cpu.cpp.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGGML_AVX2 -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_F16C -DGGML_FMA -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\.. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /arch:AVX2 -openmp /Follama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ggml-cpu-aarch64.cpp.obj /Fdllama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\ggml-cpu-aarch64.cpp",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\ggml-cpu-aarch64.cpp",
+  "output": "llama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ggml-cpu-aarch64.cpp.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGGML_AVX2 -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_F16C -DGGML_FMA -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\.. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /arch:AVX2 -openmp /Follama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ggml-cpu-hbm.cpp.obj /Fdllama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\ggml-cpu-hbm.cpp",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\ggml-cpu-hbm.cpp",
+  "output": "llama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ggml-cpu-hbm.cpp.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DGGML_AVX2 -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_F16C -DGGML_FMA -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\.. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /utf-8 /arch:AVX2 -openmp /Follama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ggml-cpu-quants.c.obj /Fdllama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\ggml-cpu-quants.c",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\ggml-cpu-quants.c",
+  "output": "llama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ggml-cpu-quants.c.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGGML_AVX2 -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_F16C -DGGML_FMA -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\.. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /arch:AVX2 -openmp /Follama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ggml-cpu-traits.cpp.obj /Fdllama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\ggml-cpu-traits.cpp",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\ggml-cpu-traits.cpp",
+  "output": "llama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ggml-cpu-traits.cpp.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGGML_AVX2 -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_F16C -DGGML_FMA -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\.. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /arch:AVX2 -openmp /Follama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\amx\\amx.cpp.obj /Fdllama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\amx\\amx.cpp",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\amx\\amx.cpp",
+  "output": "llama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\amx\\amx.cpp.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGGML_AVX2 -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_F16C -DGGML_FMA -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\.. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /arch:AVX2 -openmp /Follama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\amx\\mmq.cpp.obj /Fdllama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\amx\\mmq.cpp",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\amx\\mmq.cpp",
+  "output": "llama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\amx\\mmq.cpp.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGGML_AVX2 -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_F16C -DGGML_FMA -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\.. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /arch:AVX2 -openmp /Follama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\llamafile\\sgemm.cpp.obj /Fdllama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\llamafile\\sgemm.cpp",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\ggml-cpu\\llamafile\\sgemm.cpp",
+  "output": "llama.cpp.out\\ggml\\src\\CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\llamafile\\sgemm.cpp.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -D_CRT_SECURE_NO_WARNINGS -Dllama_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\..\\include -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /utf-8 /Zc:__cplusplus /Follama.cpp.out\\src\\CMakeFiles\\llama.dir\\llama.cpp.obj /Fdllama.cpp.out\\src\\CMakeFiles\\llama.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\llama.cpp",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\llama.cpp",
+  "output": "llama.cpp.out\\src\\CMakeFiles\\llama.dir\\llama.cpp.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -D_CRT_SECURE_NO_WARNINGS -Dllama_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\..\\include -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /utf-8 /Zc:__cplusplus /Follama.cpp.out\\src\\CMakeFiles\\llama.dir\\llama-vocab.cpp.obj /Fdllama.cpp.out\\src\\CMakeFiles\\llama.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\llama-vocab.cpp",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\llama-vocab.cpp",
+  "output": "llama.cpp.out\\src\\CMakeFiles\\llama.dir\\llama-vocab.cpp.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -D_CRT_SECURE_NO_WARNINGS -Dllama_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\..\\include -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /utf-8 /Zc:__cplusplus /Follama.cpp.out\\src\\CMakeFiles\\llama.dir\\llama-grammar.cpp.obj /Fdllama.cpp.out\\src\\CMakeFiles\\llama.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\llama-grammar.cpp",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\llama-grammar.cpp",
+  "output": "llama.cpp.out\\src\\CMakeFiles\\llama.dir\\llama-grammar.cpp.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -D_CRT_SECURE_NO_WARNINGS -Dllama_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\..\\include -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /utf-8 /Zc:__cplusplus /Follama.cpp.out\\src\\CMakeFiles\\llama.dir\\llama-sampling.cpp.obj /Fdllama.cpp.out\\src\\CMakeFiles\\llama.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\llama-sampling.cpp",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\llama-sampling.cpp",
+  "output": "llama.cpp.out\\src\\CMakeFiles\\llama.dir\\llama-sampling.cpp.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -D_CRT_SECURE_NO_WARNINGS -Dllama_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\..\\include -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /utf-8 /Zc:__cplusplus /Follama.cpp.out\\src\\CMakeFiles\\llama.dir\\unicode.cpp.obj /Fdllama.cpp.out\\src\\CMakeFiles\\llama.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\unicode.cpp",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\unicode.cpp",
+  "output": "llama.cpp.out\\src\\CMakeFiles\\llama.dir\\unicode.cpp.obj"
+},
+{
+  "directory": "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -D_CRT_SECURE_NO_WARNINGS -Dllama_EXPORTS -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\. -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\..\\include -IC:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\ggml\\src\\..\\include /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /utf-8 /Zc:__cplusplus /Follama.cpp.out\\src\\CMakeFiles\\llama.dir\\unicode-data.cpp.obj /Fdllama.cpp.out\\src\\CMakeFiles\\llama.dir\\ /FS -c C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\unicode-data.cpp",
+  "file": "C:\\Development\\cpp\\smart_subtitle\\thirdparty\\llama.cpp-b4329\\src\\unicode-data.cpp",
+  "output": "llama.cpp.out\\src\\CMakeFiles\\llama.dir\\unicode-data.cpp.obj"
+}
+]

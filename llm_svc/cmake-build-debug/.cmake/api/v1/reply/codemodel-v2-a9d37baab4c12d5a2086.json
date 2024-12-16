@@ -1,0 +1,736 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "nanomsg.out",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-nanomsg.out-Debug-51493078adc9de6aac32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						29,
+						30,
+						31,
+						32,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57
+					]
+				},
+				{
+					"build" : "nanomsg.out/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-nanomsg.out.src-Debug-9370c3e6b175cb6d8dc3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Development/cpp/smart_subtitle/thirdparty/nanomsg-1.2.1/src",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "llama.cpp.out",
+					"childIndexes" : 
+					[
+						4,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-llama.cpp.out-Debug-0ea46b872d3381542b0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "C:/Development/cpp/smart_subtitle/thirdparty/llama.cpp-b4329"
+				},
+				{
+					"build" : "llama.cpp.out/ggml",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-llama.cpp.out.ggml-Debug-6f9a1bab83474b8ae128.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "C:/Development/cpp/smart_subtitle/thirdparty/llama.cpp-b4329/ggml"
+				},
+				{
+					"build" : "llama.cpp.out/ggml/src",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-llama.cpp.out.ggml.src-Debug-22b5f3bb47aa4b721147.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "C:/Development/cpp/smart_subtitle/thirdparty/llama.cpp-b4329/ggml/src",
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"build" : "llama.cpp.out/ggml/src/ggml-cpu",
+					"jsonFile" : "directory-llama.cpp.out.ggml.src.ggml-cpu-Debug-2da4d4a9c4111d177452.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 3,
+					"source" : "C:/Development/cpp/smart_subtitle/thirdparty/llama.cpp-b4329/ggml/src/ggml-cpu"
+				},
+				{
+					"build" : "llama.cpp.out/src",
+					"jsonFile" : "directory-llama.cpp.out.src-Debug-1fe60ac651ef28be8ff7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "C:/Development/cpp/smart_subtitle/thirdparty/llama.cpp-b4329/src",
+					"targetIndexes" : 
+					[
+						27
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "llm_svc",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "nanomsg",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						3,
+						7
+					],
+					"name" : "llama.cpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5,
+						6
+					],
+					"name" : "ggml",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "async_shutdown::@58561e324d6abfd2580f",
+					"jsonFile" : "target-async_shutdown-Debug-8b45858b14f95825cc36.json",
+					"name" : "async_shutdown",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "block::@58561e324d6abfd2580f",
+					"jsonFile" : "target-block-Debug-0bfa57a6b55630210ed3.json",
+					"name" : "block",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bug328::@58561e324d6abfd2580f",
+					"jsonFile" : "target-bug328-Debug-cc632a69cd1bec1a306e.json",
+					"name" : "bug328",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bug777::@58561e324d6abfd2580f",
+					"jsonFile" : "target-bug777-Debug-22fea58c361c581ac66b.json",
+					"name" : "bug777",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bus::@58561e324d6abfd2580f",
+					"jsonFile" : "target-bus-Debug-6035c3bc50e7a3ca1a2e.json",
+					"name" : "bus",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cmsg::@58561e324d6abfd2580f",
+					"jsonFile" : "target-cmsg-Debug-d03eae0f4c9e1de5e65a.json",
+					"name" : "cmsg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "device::@58561e324d6abfd2580f",
+					"jsonFile" : "target-device-Debug-68e9d1ecdd0d27a60898.json",
+					"name" : "device",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "device4::@58561e324d6abfd2580f",
+					"jsonFile" : "target-device4-Debug-c65e84179ddaba8e1df0.json",
+					"name" : "device4",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "device5::@58561e324d6abfd2580f",
+					"jsonFile" : "target-device5-Debug-936d2b00a5696063273f.json",
+					"name" : "device5",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "device6::@58561e324d6abfd2580f",
+					"jsonFile" : "target-device6-Debug-3ee10adfccbbe952675c.json",
+					"name" : "device6",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "device7::@58561e324d6abfd2580f",
+					"jsonFile" : "target-device7-Debug-53541da1c633fa0cafa3.json",
+					"name" : "device7",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dist::@58561e324d6abfd2580f",
+					"jsonFile" : "target-dist-Debug-d8bc409ac610b1747fb9.json",
+					"name" : "dist",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "domain::@58561e324d6abfd2580f",
+					"jsonFile" : "target-domain-Debug-2906d75337d0234d5178.json",
+					"name" : "domain",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "emfile::@58561e324d6abfd2580f",
+					"jsonFile" : "target-emfile-Debug-22a8b86b8fd5e64ad735.json",
+					"name" : "emfile",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ggml::@a9f3afaf229a55afb710",
+					"jsonFile" : "target-ggml-Debug-5fe335c7556eb752741a.json",
+					"name" : "ggml",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ggml-base::@a9f3afaf229a55afb710",
+					"jsonFile" : "target-ggml-base-Debug-12348a0adce26209ea4f.json",
+					"name" : "ggml-base",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ggml-cpu::@a9f3afaf229a55afb710",
+					"jsonFile" : "target-ggml-cpu-Debug-4348e566d5df2dd4ea35.json",
+					"name" : "ggml-cpu",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hash::@58561e324d6abfd2580f",
+					"jsonFile" : "target-hash-Debug-f3328a666bbf3e3c2bd5.json",
+					"name" : "hash",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "inproc::@58561e324d6abfd2580f",
+					"jsonFile" : "target-inproc-Debug-df5e2bcc80d192cb3ba9.json",
+					"name" : "inproc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "inproc_lat::@58561e324d6abfd2580f",
+					"jsonFile" : "target-inproc_lat-Debug-69d0a117f904fe3fbe64.json",
+					"name" : "inproc_lat",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "inproc_shutdown::@58561e324d6abfd2580f",
+					"jsonFile" : "target-inproc_shutdown-Debug-113068dcf60decfbd20d.json",
+					"name" : "inproc_shutdown",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "inproc_thr::@58561e324d6abfd2580f",
+					"jsonFile" : "target-inproc_thr-Debug-734a07e80bd8366b1e3e.json",
+					"name" : "inproc_thr",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "iovec::@58561e324d6abfd2580f",
+					"jsonFile" : "target-iovec-Debug-6e9f40930c0c2cb2d974.json",
+					"name" : "iovec",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ipc::@58561e324d6abfd2580f",
+					"jsonFile" : "target-ipc-Debug-c4cb92af7d89a3294839.json",
+					"name" : "ipc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ipc_shutdown::@58561e324d6abfd2580f",
+					"jsonFile" : "target-ipc_shutdown-Debug-2af0efcaa6e746939377.json",
+					"name" : "ipc_shutdown",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ipc_stress::@58561e324d6abfd2580f",
+					"jsonFile" : "target-ipc_stress-Debug-e8ef20d82b53e8755994.json",
+					"name" : "ipc_stress",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "list::@58561e324d6abfd2580f",
+					"jsonFile" : "target-list-Debug-4c9200fd060653ac0341.json",
+					"name" : "list",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "llama::@aed28d853c26921cbaed",
+					"jsonFile" : "target-llama-Debug-2b2f026c746c34514c1f.json",
+					"name" : "llama",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "llm_svc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-llm_svc-Debug-c394387bc5cd23af9d96.json",
+					"name" : "llm_svc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "local_lat::@58561e324d6abfd2580f",
+					"jsonFile" : "target-local_lat-Debug-1d752917ade76c7d219c.json",
+					"name" : "local_lat",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "local_thr::@58561e324d6abfd2580f",
+					"jsonFile" : "target-local_thr-Debug-2f4813589b8a25b1ce84.json",
+					"name" : "local_thr",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "msg::@58561e324d6abfd2580f",
+					"jsonFile" : "target-msg-Debug-c9d420bfc133c49c069b.json",
+					"name" : "msg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nanocat::@58561e324d6abfd2580f",
+					"jsonFile" : "target-nanocat-Debug-28051b9279d7810d71d5.json",
+					"name" : "nanocat",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nanomsg::@565ad95205dd160165b1",
+					"jsonFile" : "target-nanomsg-Debug-8198ddad242e77cd1a46.json",
+					"name" : "nanomsg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "pair::@58561e324d6abfd2580f",
+					"jsonFile" : "target-pair-Debug-775c9909319c430a6801.json",
+					"name" : "pair",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "pipeline::@58561e324d6abfd2580f",
+					"jsonFile" : "target-pipeline-Debug-01b46940fabe2c8a5547.json",
+					"name" : "pipeline",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "poll::@58561e324d6abfd2580f",
+					"jsonFile" : "target-poll-Debug-f09213abeae90a05ccf7.json",
+					"name" : "poll",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "prio::@58561e324d6abfd2580f",
+					"jsonFile" : "target-prio-Debug-ded23627c2d6dab1d0f3.json",
+					"name" : "prio",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "pubsub::@58561e324d6abfd2580f",
+					"jsonFile" : "target-pubsub-Debug-73704a69291cf7a47440.json",
+					"name" : "pubsub",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "remote_lat::@58561e324d6abfd2580f",
+					"jsonFile" : "target-remote_lat-Debug-15826b2e539871d86341.json",
+					"name" : "remote_lat",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "remote_thr::@58561e324d6abfd2580f",
+					"jsonFile" : "target-remote_thr-Debug-118b872345ff38d4b07c.json",
+					"name" : "remote_thr",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "reqrep::@58561e324d6abfd2580f",
+					"jsonFile" : "target-reqrep-Debug-df9b6d4b4dc6e49b865b.json",
+					"name" : "reqrep",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "reqttl::@58561e324d6abfd2580f",
+					"jsonFile" : "target-reqttl-Debug-70149f4ea3b64d471773.json",
+					"name" : "reqttl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "separation::@58561e324d6abfd2580f",
+					"jsonFile" : "target-separation-Debug-fcab1cabc8aaff9f3a22.json",
+					"name" : "separation",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "shutdown::@58561e324d6abfd2580f",
+					"jsonFile" : "target-shutdown-Debug-a8cefbeb4bcf858b3c6e.json",
+					"name" : "shutdown",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "stats::@58561e324d6abfd2580f",
+					"jsonFile" : "target-stats-Debug-2252c5005935717f3712.json",
+					"name" : "stats",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "survey::@58561e324d6abfd2580f",
+					"jsonFile" : "target-survey-Debug-082ae452422a142c19d7.json",
+					"name" : "survey",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "surveyttl::@58561e324d6abfd2580f",
+					"jsonFile" : "target-surveyttl-Debug-0c6d062426430e92e138.json",
+					"name" : "surveyttl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "symbol::@58561e324d6abfd2580f",
+					"jsonFile" : "target-symbol-Debug-c2d88370730d2f546f78.json",
+					"name" : "symbol",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tcp::@58561e324d6abfd2580f",
+					"jsonFile" : "target-tcp-Debug-dfa534fb4758c9328b5b.json",
+					"name" : "tcp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tcp_shutdown::@58561e324d6abfd2580f",
+					"jsonFile" : "target-tcp_shutdown-Debug-0058d1c069b84e7576e2.json",
+					"name" : "tcp_shutdown",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "term::@58561e324d6abfd2580f",
+					"jsonFile" : "target-term-Debug-f331e13c4ed50ca21eb8.json",
+					"name" : "term",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "timeo::@58561e324d6abfd2580f",
+					"jsonFile" : "target-timeo-Debug-9451c7507e12948c2f6b.json",
+					"name" : "timeo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "trie::@58561e324d6abfd2580f",
+					"jsonFile" : "target-trie-Debug-87a91b143b11ea8663c9.json",
+					"name" : "trie",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "win_sec_attr::@58561e324d6abfd2580f",
+					"jsonFile" : "target-win_sec_attr-Debug-27104e058995eb4416cd.json",
+					"name" : "win_sec_attr",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ws::@58561e324d6abfd2580f",
+					"jsonFile" : "target-ws-Debug-59a6d7fb316d4dec1dc3.json",
+					"name" : "ws",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ws_async_shutdown::@58561e324d6abfd2580f",
+					"jsonFile" : "target-ws_async_shutdown-Debug-b0aa75b7dde12ec1fb69.json",
+					"name" : "ws_async_shutdown",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "zerocopy::@58561e324d6abfd2580f",
+					"jsonFile" : "target-zerocopy-Debug-fafd47cc3b98ff118808.json",
+					"name" : "zerocopy",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Development/cpp/smart_subtitle/llm_svc/cmake-build-debug",
+		"source" : "C:/Development/cpp/smart_subtitle/llm_svc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
