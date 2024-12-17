@@ -5,13 +5,19 @@
 #define MINIAUDIO_IMPLEMENTATION
 #include "audio_capture.h"
 
+#include <chrono>
+#include "whisper.h"
+
 static void AudioDataCallbackWrapper(ma_device *device, void *output, const void *input,
                                      const ma_uint32 frame_count) {
     if (const auto target = static_cast<smart_subtitle::AudioCapture *>(device->pUserData);
         target && target->audio_data_callback_) {
+        const auto now = std::chrono::high_resolution_clock::now();
+        const auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(now - target->start_time_).count();
+
         const auto data = static_cast<const uint8_t *>(input);
         const auto size = frame_count * device->capture.channels * ma_get_bytes_per_sample(device->capture.format);
-        target->audio_data_callback_(data, size);
+        target->audio_data_callback_(data, size, duration);
     }
 }
 
@@ -28,9 +34,9 @@ namespace smart_subtitle {
         device_config_ = ma_device_config_init(ma_device_type_loopback);
         device_config_.pUserData = this;
         device_config_.capture.pDeviceID = nullptr;
-        device_config_.sampleRate = 44100;
         device_config_.capture.channels = 1;
         device_config_.capture.format = ma_format_f32;
+        device_config_.sampleRate = WHISPER_SAMPLE_RATE;
         device_config_.dataCallback = &AudioDataCallbackWrapper;
 
         if (const auto result = ma_device_init_ex(backends, std::size(backends), nullptr,
@@ -47,6 +53,7 @@ namespace smart_subtitle {
         }
 
         started_ = true;
+        this->start_time_ = std::chrono::high_resolution_clock::now();
         return true;
     }
 

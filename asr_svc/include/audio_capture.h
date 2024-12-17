@@ -4,19 +4,23 @@
 
 #pragma once
 
+#include <chrono>
 #include <cstdint>
 #include <functional>
 #include <miniaudio.h>
 
-namespace smart_subtitle {
-    class AudioCapture final {
+namespace smart_subtitle
+{
+    class AudioCapture final
+    {
     protected:
         bool started_;
         ma_device device_;
         ma_device_config device_config_;
 
     public:
-        std::function<void(const uint8_t *data, size_t size)> audio_data_callback_;
+        std::chrono::time_point<std::chrono::steady_clock> start_time_;
+        std::function<void(const uint8_t* data, size_t size, uint64_t)> audio_data_callback_;
 
     public:
         AudioCapture();
@@ -25,6 +29,6 @@ namespace smart_subtitle {
 
         virtual ~AudioCapture();
 
-        void SetCallback(const decltype(audio_data_callback_) &callback);
+        void SetCallback(const decltype(audio_data_callback_)& callback);
     };
 }
